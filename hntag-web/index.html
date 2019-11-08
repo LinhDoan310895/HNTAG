@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hà Nội thì ăn gì?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">#HNTAN?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giảm giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Đặt bàn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul class="nav nav-tabs justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white btn btn-info bg-danger" role="button" href="#">Đăng ký nhận ưu đãi!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" style="font-size: 18px">
+        <!-- brand/logo -->
+        <a href="#" class="navbar-brand">
+            <img src="images/nav-logo.png" alt="#HNTAG" style="width: 40px">
+        </a>
+        <!-- touggler/collapsibe button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar ink -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                    <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
+                        Ăn gì mày ơi? <span class="badge badge-danger animated infinite flash">NEW</span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Ăn sáng</a>
+                            <a class="dropdown-item" href="#">Ăn trưa</a>
+                            <a class="dropdown-item" href="#">Ăn tối</a>
+                            <a class="dropdown-item" href="#">Ăn đêm</a>
+                            <a class="dropdown-item" href="#">Đồ mang đi</a>
+                            <a class="dropdown-item" href="#">Nhận giao hàng</a>
+                        </div>
+                    </button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown">
+                        La cà hàng quán
+                    </a>
+                    <div class="dropdown-menu">
+                        <ul class="container-fluid">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bánh đa</a>
+                            </li>
+                        </ul>
+
+                        <!-- <a class="dropdown-item" href="#">Bánh gà</a>
+                        <a class="dropdown-item" href="#">Bánh trôi</a>
+                        <a class="dropdown-item" href="#">Bánh xèo</a>
+                        <a class="dropdown-item" href="#">Bún chả</a>
+                        <a class="dropdown-item" href="#">Bún măng</a>
+                        <a class="dropdown-item" href="#">Bún riêu cua</a> -->
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown">
+                        Dạo quanh phố phường
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Quận Ba Đình</a>
+                        <a class="dropdown-item" href="#">Quận Hoàn Kiếm</a>
+                        <a class="dropdown-item" href="#">Quận Hai Bà Trưng</a>
+                        <a class="dropdown-item" href="#">Quận Đống Đa</a>
+                        <a class="dropdown-item" href="#">Quận Tây Hồ</a>
+                        <a class="dropdown-item" href="#">Quận Cầu Giấy</a>
+                        <a class="dropdown-item" href="#">Quận Thanh Xuân</a>
+                        <a class="dropdown-item" href="#">Quận Hoàng Mai</a>
+                        <a class="dropdown-item" href="#">Quận Long Biên</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- search form -->
+        <form action="/action_page.php" class="form-inline">
+            <input class="form-control mr-sm-2" type="text" placeholder="Hà Nội thì ăn gì?">
+            <button class="btn btn-light" type="submit">Tìm kiếm</button>
+        </form>
+    </nav>
+    <div id="banner" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#banner" data-slide-to="0" class="active"></li>
+            <li data-target="#banner" data-slide-to="1"></li>
+            <li data-target="#banner" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner" style="margin: center; text-align: center">
+            <div class="carousel-item active">
+                <img src="images/banner/banner-1.jpg" alt="SonnySideUltimateBunTour" height="500">
+                <div class="carousel-caption text-dark bg-light">
+                    <h3>Tour bún "tối thượng ở Hà Nội</h3>
+                    <p>Sonny Side đang rất hứng thú với nó đấy!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner/banner-2.jpg" alt="BunDauMamTomHangKhay" height="500">
+                <div class="carousel-caption text-dark bg-light">
+                    <h3>Bún đậu mắm tôm Hàng Khay</h3>
+                    <p>Mê mẩn với hương vị bún thương hiệu 25 năm phố cổ</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner/banner-3.jpg" alt="HNPHangCot" height="500">
+                <div class="carousel-caption text-dark bg-light">
+                    <h3>Ngọt bùi và tê tái với Món ngon phố cổ Hà Nội về đêm tại phố Hàng Cót</h3>
+                    <p>Hôm nay sẽ là một quán ăn vỉa hè gần ngã tư phố cổ Hàng Chai với phố Hàng Cót</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#banner" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#banner" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2" style="background-color: lightgray">a</div>
+            <div class="col-sm-8" style="background-color: rgb(255, 255, 255)">b</div>
+            <div class="col-sm-2" style="background-color: lightgray">c</div>
+        </div>
+        <!-- <br>
+        <p>Some example text. Some example text. Some example text. Some example text. Some example text. </p>
+        <p>Some example text. Some example text. Some example text. Some example text. Some example text. </p>
+        <p>Some example text. Some example text. Some example text. Some example text. Some example text. </p>
+        <p>Some example text. Some example text. Some example text. Some example text. Some example text. </p>
+        <p>Some example text. Some example text. Some example text. Some example text. Some example text. </p> -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
